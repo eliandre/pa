@@ -6,4 +6,8 @@ $pnimi = "Eegreid";
 $nimi = $enimi . $pnimi;
 
 echo $nimi;
+
+//Et kogu teksti kokku ei pandaks
+$nimi = $enimi.' '.$pnimi;
+echo $nimi;
 ?>
