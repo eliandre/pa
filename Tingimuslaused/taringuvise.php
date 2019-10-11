@@ -1,19 +1,19 @@
 <?php
 
-$number = rand(1,6);
+$number = rand(1,7);
 
 switch($number){
-    case $number == 1: echo 'Arv on '.$number;
+    case 1: echo 'Arv on '.$number;
     break;
-    case $number == 2: echo 'Arv on '.$number;
+    case 2: echo 'Arv on '.$number;
     break;
-    case $number == 3: echo 'Arv on '.$number;
+    case 3: echo 'Arv on '.$number;
     break;
-    case $number == 4: echo 'Arv on '.$number;
+    case 4: echo 'Arv on '.$number;
     break;
-    case $number == 5: echo 'Arv on '.$number;
+    case 5: echo 'Arv on '.$number;
     break;
-    case $number == 6: echo 'Arv on '.$number;
+    case 7: echo 'Arv on '.$number;
     break;
     default: echo 'Viga!';
 }
